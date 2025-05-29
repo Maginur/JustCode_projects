@@ -1,6 +1,6 @@
 # JustCode Projects Portfolio
 
-## 🌍 English Version
+## English Version
 
 Welcome to my data analytics portfolio developed during the TechOrda program at JustCode Academy.  
 Each project reflects a complete analytics cycle — from raw data to visualization and business interpretation.
@@ -17,7 +17,7 @@ Each project reflects a complete analytics cycle — from raw data to visualizat
 
 ---
 
-## 🇷🇺 Русская версия
+## Русская версия
 
 Добро пожаловать в мой репозиторий с проектами по аналитике данных, выполненными в рамках обучения в JustCode Academy по программе TechOrda.  
 Каждый проект охватывает полный аналитический цикл — от очистки данных до визуализации и бизнес-выводов.
