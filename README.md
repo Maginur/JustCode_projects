@@ -7,8 +7,11 @@ Each project reflects a complete analytics cycle — from raw data to visualizat
 
 ### 📁 Projects
 
-- [Capstone: Hotel Booking Analysis](./Capstone_HotelBookings/)  
+- [Capstone project: Hotel Booking Analysis](./Capstone_HotelBookings/)  
   Analysis of guest behavior, cancellations and revenue metrics using Python, PostgreSQL, and Power BI.
+
+- [PowerBI Project](./RF_Socio_Analysis_PowerBI/)  
+  Socio-economic dashboard for Russian cities and regions (2000–2019): pension, population, education, infrastructure
 
 *More projects will be added soon.*
 
@@ -21,7 +24,10 @@ Each project reflects a complete analytics cycle — from raw data to visualizat
 
 ### 📁 Проекты
 
-- [Капстон: Анализ бронирований отелей](./Capstone_HotelBookings/)  
+- [Финальный проект: Анализ бронирований отелей](./Capstone_HotelBookings/)  
   Поведенческий анализ гостей, отмены и метрики выручки (Python, PostgreSQL, Power BI)
+
+- [Проект по модулю PowerBI](./RF_Socio_Analysis_PowerBI/)  
+  Социально-экономический анализ городов и регионов РФ (2000–2019)
 
 *Новые проекты будут добавлены позже.*
