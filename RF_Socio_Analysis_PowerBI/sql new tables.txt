@@ -1,0 +1,23 @@
+-- Создание таблицы year_var
+CREATE TABLE IF NOT EXISTS year_var (
+    year_date DATE PRIMARY KEY
+);
+
+-- Заполнение year_var из context_var
+INSERT INTO year_var (year_date)
+SELECT DISTINCT TO_DATE(year::text, 'YYYY')
+FROM context_var
+WHERE year IS NOT NULL;
+
+
+-- Создание таблицы oktmo_var
+CREATE TABLE IF NOT EXISTS oktmo_var (
+    oktmo BIGINT PRIMARY KEY,
+    settlement TEXT
+);
+
+-- Заполнение oktmo_var из context_var
+INSERT INTO oktmo_var (oktmo, settlement)
+SELECT DISTINCT oktmo, settlement
+FROM context_var
+WHERE oktmo IS NOT NULL;

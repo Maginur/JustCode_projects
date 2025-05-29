@@ -1,0 +1,73 @@
+CREATE TABLE context_var (
+    region TEXT,
+    municipality TEXT,
+    settlement TEXT,
+    oktmo BIGINT,
+    latitude_dd DOUBLE PRECISION,
+    longitude_dd DOUBLE PRECISION,
+    year INTEGER
+);
+
+CREATE TABLE demography_var (
+    oktmo BIGINT,
+    year INTEGER,
+    pop_1_6 DOUBLE PRECISION,
+    pop_work DOUBLE PRECISION,
+    pop_young DOUBLE PRECISION,
+    pens DOUBLE PRECISION,
+    rni DOUBLE PRECISION,
+    death DOUBLE PRECISION,
+    birth DOUBLE PRECISION,
+    population DOUBLE PRECISION
+);
+
+CREATE TABLE economy_var (
+    oktmo BIGINT,
+    year INTEGER,
+    industry DOUBLE PRECISION,
+    servises DOUBLE PRECISION,
+    assets DOUBLE PRECISION,
+    retail DOUBLE PRECISION,
+    invest_fed DOUBLE PRECISION,
+    invest_budg DOUBLE PRECISION,
+    investment DOUBLE PRECISION,
+    wage DOUBLE PRECISION,
+    pension DOUBLE PRECISION,
+    job_regist_unempl DOUBLE PRECISION,
+    n_companies DOUBLE PRECISION,
+    workers DOUBLE PRECISION
+);
+
+CREATE TABLE education_var (
+    oktmo BIGINT,
+    year INTEGER,
+    pupils DOUBLE PRECISION,
+    schools DOUBLE PRECISION,
+    preschool DOUBLE PRECISION,
+    preschool_places DOUBLE PRECISION,
+    preschool_child DOUBLE PRECISION
+);
+
+CREATE TABLE healthcare_var (
+    oktmo BIGINT,
+    year INTEGER,
+    polyclinic DOUBLE PRECISION,
+    hospitals DOUBLE PRECISION,
+    polycl_visits DOUBLE PRECISION,
+    hospital_beds DOUBLE PRECISION,
+    doctors DOUBLE PRECISION,
+    nurses DOUBLE PRECISION
+);
+CREATE TABLE infrastructure_var (
+    oktmo BIGINT,
+    year INTEGER,
+    build_flat DOUBLE PRECISION,
+    new_hospital_beds DOUBLE PRECISION,
+    new_school_places DOUBLE PRECISION,
+    new_polycl_visits DOUBLE PRECISION,
+    new_preschool_places DOUBLE PRECISION,
+    construction DOUBLE PRECISION,
+    new_housing DOUBLE PRECISION,
+    living_space DOUBLE PRECISION
+);
+
