@@ -1,6 +1,6 @@
 ## Capstone Project: Hotel Booking Analysis
 
-### 🌍 English Version
+### English Version
 
 **Project summary:**  
 This project analyzes customer behavior based on hotel booking data. The analysis covers how repeat guests, presence of children, market segments, and sales channels influence key metrics: ADR (average daily rate), stay duration, lead time, and cancellations.  
@@ -18,7 +18,7 @@ Python, PostgreSQL, SQL, Power BI
 - Formulation and testing of hypotheses (children → longer stay, agents → lower ADR, client type → booking changes, etc.)
 
 **Files included:**
-- `capstone_project (ru).pdf` — final Power BI visuals
+- `capstone_project (ru).pdf` — final Power BI visuals in Russian
 - `data cleaning for capstone (ru).ipynb` — Python notebook for cleaning & DB
 - `df_clean.csv` / `hotel_bookings.csv` — clean and raw datasets
 - `description hotel_bookings (en).txt` / `description df_clean (en).txt` — column descriptions (EN)
@@ -26,7 +26,7 @@ Python, PostgreSQL, SQL, Power BI
 
 ---
 
-### 🇷🇺 Русская версия
+### Русская версия
 
 **Описание проекта:**  
 Анализ поведения гостей на основе данных о бронированиях отелей. Исследовалось влияние на метрики ADR, длительности проживания, lead time и отмен со стороны: наличия детей, сегмента рынка, канала продаж и статуса гостя.
