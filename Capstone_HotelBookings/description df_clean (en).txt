@@ -1,0 +1,58 @@
+Description of columns in df_clean.csv:
+
+hotel — type of hotel (object): "City Hotel", "Resort Hotel"
+
+is_canceled — booking cancellation (int64): 0 — no, 1 — yes
+
+lead_time — number of days between booking and arrival (int64)
+
+stays_in_weekend_nights — weekend nights (int64)
+
+stays_in_week_nights — weekday nights (int64)
+
+adults — number of adults (int64)
+
+children — number of children (int64)
+
+babies — number of babies (int64)
+
+meal — meal plan (object): "BB", "FB", "HB", "SC"
+
+country — country of origin (object)
+
+market_segment — market segment (object): "Aviation", "Complementary", "Corporate", "Direct", "Groups", "Offline TA/TO", "Online TA"
+
+distribution_channel — booking channel (object): "Corporate", "Direct", "GDS", "TA/TO", "Undefined"
+
+is_repeated_guest — repeated guest (int64): 0 — no, 1 — yes
+
+previous_cancellations — number of previous cancellations (int64)
+
+previous_bookings_not_canceled — number of successful previous bookings (int64)
+
+reserved_room_type — initially reserved room type (object): "A", "B", "C", "D", "E", "F", "G", "H", "L"
+
+assigned_room_type — room type actually assigned (object)
+
+booking_changes — number of booking changes (int64)
+
+deposit_type — type of deposit (object): "No Deposit", "Non Refund", "Refundable"
+
+agent — ID of booking agent (int64)
+
+days_in_waiting_list — number of days on waiting list (int64)
+
+customer_type — type of customer (object): "Contract", "Group", "Transient", "Transient-Party"
+
+adr — average daily rate (float64)
+
+required_car_parking_spaces — number of parking spaces requested (int64)
+
+total_of_special_requests — number of special requests (int64)
+
+reservation_status — booking status (object): "Canceled", "Check-Out", "No-Show"
+
+reservation_status_date — status update date (object — YYYY-MM-DD)
+
+arrival_date — date of arrival (object — YYYY-MM-DD)
+

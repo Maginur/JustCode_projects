@@ -1,0 +1,65 @@
+Описание колонок в исходном датасете (hotel_bookings.csv):
+
+hotel — тип отеля (object), 2 значения: "City Hotel", "Resort Hotel"
+
+is_canceled — отмена бронирования (int64), 0 = нет, 1 = да
+
+lead_time — дни между бронированием и заездом (int64)
+
+arrival_date_year — год заезда (int64): 2015, 2016, 2017
+
+arrival_date_month — месяц заезда (object): January – December
+
+arrival_date_week_number — неделя года (int64)
+
+arrival_date_day_of_month — день месяца (int64)
+
+stays_in_weekend_nights — ночей в выходные (int64)
+
+stays_in_week_nights — ночей в будние (int64)
+
+adults — количество взрослых (int64)
+
+children — количество детей (float64), есть пропуски
+
+babies — количество младенцев (int64)
+
+meal — тип питания (object), 5 значений: "BB", "HB", "FB", "SC", "Undefined"
+
+country — страна гостя (object), 177 уникальных значений (ISO-коды)
+
+market_segment — сегмент рынка (object), 8 значений: "Direct", "Corporate", "Online TA", "Offline TA", "Groups", "Complementary", "Aviation", "Undefined"
+
+distribution_channel — канал продаж (object), 5 значений: "TA/TO", "Direct", "Corporate", "GDS", "Undefined"
+
+is_repeated_guest — повторный гость (int64): 0 или 1
+
+previous_cancellations — количество отмен ранее (int64)
+
+previous_bookings_not_canceled — успешные прошлые брони (int64)
+
+reserved_room_type — забронированный тип номера (object): A–L
+
+assigned_room_type — выданный тип номера (object): A–L
+
+booking_changes — количество изменений (int64)
+
+deposit_type — тип депозита (object), 3 значения: "No Deposit", "Refundable", "Non Refund"
+
+agent — ID агентства (float64), есть пропуски
+
+company — ID компании (float64), много пропусков
+
+days_in_waiting_list — дней ожидания (int64)
+
+customer_type — тип клиента (object), 4 значения: "Contract", "Group", "Transient", "Transient-Party"
+
+adr — средняя цена за ночь (float64)
+
+required_car_parking_spaces — парковочные места (int64)
+
+total_of_special_requests — количество спецзапросов (int64)
+
+reservation_status — статус брони (object), 3 значения: "Canceled", "Check-Out", "No-Show"
+
+reservation_status_date — дата статуса (object), формат YYYY-MM-DD

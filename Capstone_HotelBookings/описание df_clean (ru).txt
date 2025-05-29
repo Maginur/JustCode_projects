@@ -1,0 +1,57 @@
+Описание колонок в df_clean.csv:
+
+hotel — тип отеля (object): "City Hotel", "Resort Hotel"
+
+is_canceled — отмена бронирования (int64): 0 — нет, 1 — да
+
+lead_time — количество дней между бронированием и заездом (int64)
+
+stays_in_weekend_nights — ночёвки в выходные (int64)
+
+stays_in_week_nights — ночёвки в будние (int64)
+
+adults — количество взрослых (int64)
+
+children — количество детей (int64)
+
+babies — количество младенцев (int64)
+
+meal — тип питания (object): "BB", "FB", "HB", "SC"
+
+country — страна проживания клиента (object)
+
+market_segment — сегмент рынка (object): "Aviation", "Complementary", "Corporate", "Direct", "Groups", "Offline TA/TO", "Online TA"
+
+distribution_channel — канал бронирования (object): "Corporate", "Direct", "GDS", "TA/TO", "Undefined"
+
+is_repeated_guest — повторный гость (int64): 0 — нет, 1 — да
+
+previous_cancellations — количество отмен до текущей брони (int64)
+
+previous_bookings_not_canceled — количество успешных броней до текущей (int64)
+
+reserved_room_type — тип забронированного номера (object): "A", "B", "C", "D", "E", "F", "G", "H", "L"
+
+assigned_room_type — фактически выданный тип номера (object)
+
+booking_changes — количество изменений в бронировании (int64)
+
+deposit_type — тип депозита (object): "No Deposit", "Non Refund", "Refundable"
+
+agent — ID агентства, оформившего бронь (int64)
+
+days_in_waiting_list — дни в листе ожидания (int64)
+
+customer_type — тип клиента (object): "Contract", "Group", "Transient", "Transient-Party"
+
+adr — средняя стоимость проживания за ночь (float64)
+
+required_car_parking_spaces — количество запрошенных парковочных мест (int64)
+
+total_of_special_requests — количество специальных запросов (int64)
+
+reservation_status — статус бронирования (object): "Canceled", "Check-Out", "No-Show"
+
+reservation_status_date — дата изменения статуса (object — YYYY-MM-DD)
+
+arrival_date — дата заезда (object — YYYY-MM-DD)

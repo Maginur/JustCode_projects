@@ -1,0 +1,65 @@
+Column descriptions (raw data from hotel_bookings.csv):
+
+hotel — hotel type (object), 2 values: "City Hotel", "Resort Hotel"
+
+is_canceled — booking canceled (int64), 0 = no, 1 = yes
+
+lead_time — days between booking and arrival (int64)
+
+arrival_date_year — arrival year (int64): 2015, 2016, 2017
+
+arrival_date_month — arrival month (object): January to December
+
+arrival_date_week_number — week number (int64)
+
+arrival_date_day_of_month — day of the month (int64)
+
+stays_in_weekend_nights — weekend nights (int64)
+
+stays_in_week_nights — week nights (int64)
+
+adults — number of adults (int64)
+
+children — number of children (float64), may contain missing values
+
+babies — number of babies (int64)
+
+meal — meal type (object), 5 values: "BB", "HB", "FB", "SC", "Undefined"
+
+country — guest's country (object), 177 unique ISO country codes
+
+market_segment — market segment (object), 8 values: "Direct", "Corporate", "Online TA", "Offline TA", "Groups", "Complementary", "Aviation", "Undefined"
+
+distribution_channel — sales channel (object), 5 values: "TA/TO", "Direct", "Corporate", "GDS", "Undefined"
+
+is_repeated_guest — returning guest (int64): 0 or 1
+
+previous_cancellations — number of previous cancellations (int64)
+
+previous_bookings_not_canceled — past successful bookings (int64)
+
+reserved_room_type — reserved room type (object): A–L
+
+assigned_room_type — assigned room type (object): A–L
+
+booking_changes — number of booking changes (int64)
+
+deposit_type — deposit type (object), 3 values: "No Deposit", "Refundable", "Non Refund"
+
+agent — agency ID (float64), may be missing
+
+company — company ID (float64), many missing values
+
+days_in_waiting_list — days on waiting list (int64)
+
+customer_type — customer type (object), 4 values: "Contract", "Group", "Transient", "Transient-Party"
+
+adr — average daily rate (float64)
+
+required_car_parking_spaces — parking spaces requested (int64)
+
+total_of_special_requests — number of special requests (int64)
+
+reservation_status — reservation status (object), 3 values: "Canceled", "Check-Out", "No-Show"
+
+reservation_status_date — date of status (object), format YYYY-MM-DD
